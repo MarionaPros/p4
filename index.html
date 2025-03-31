@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacaciones Mediterráneo</title>
+    <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body>
+    <header>
+        <h1 id="title">Vacaciones Mediterráneo</h1>
+        <nav>
+            <ul class="contenedor">
+                <ul>
+                    <li><a href="../Practica2/Apartamentos.html" id="apartments-link">Apartamentos</a></li>
+                    <li><a href="../Practica2/Informacion.html" id="info-link">Información general</a></li>
+                    <li><a href="../Practica2/Reservas.html" id="price-link">Precios</a></li>
+                </ul>
+            </ul>
+        </nav>
+        <!-- Selector de Idioma -->
+        <select id="language-selector" onchange="cambiarIdioma(this.value)">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+        </select>
+    </header>
+    <main>
+        <h4 id="subtitle">Disfruta de tus vacaciones cerca del mar</h4>
+        <ul>
+            <li><a href="../Practica2/Apartamentos.html" id="apartments-link-main">Apartamentos</a></li>
+            <li><a href="../Practica2/Informacion.html" id="info-link-main">Información general</a></li>
+            <li><a href="../Practica2/Reservas.html" id="price-link-main">Precios</a></li>
+        </ul>
+    </main>
+    <footer>
+        <ul class="footer-menu">
+            <li><a href="#" id="contact-link">Contacto</a></li>
+            <li><a href="#" id="facebook-link">Facebook</a></li>
+            <li><a href="#" id="instagram-link">Instagram</a></li>
+        </ul>
+    </footer>
+    <!-- Añadir el script para la traducción -->
+    <script src="app.js"></script>
+</body>
+</html>

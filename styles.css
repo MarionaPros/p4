@@ -1,0 +1,124 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Organiza en columnas */
+    background-image: url("fondoMenorca3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ocupa toda la pantalla */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap'); /* Ejemplo de fuente elegante */
+
+header h1 {
+    font-family:'Dancing Script',cursive ; /* Cambia la fuente */
+    font-size: px; /* Ajusta el tamaño del texto */
+    margin-left: 20px; /* Mueve el h1 más a la izquierda */
+}
+
+
+header {
+    background: #90b3c5;
+    flex: 0.2; /* 20% del espacio total */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Separa el h1 del menú de navegación */
+    padding: 10px 20px; /* Agrega espacio interno */
+    color: white;
+}
+
+header a:hover{
+    color: #ccc; /* Color de los enlaces cuando se pasa el cursor */
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+footer {
+    background: #90b3c5;
+    flex: 0.05; 
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido */
+    color: white;
+    padding: 10px;
+}
+
+footer ul {
+    list-style: none; /* Quita los puntos de la lista */
+    display: flex; /* Organiza los elementos en una fila */
+    gap: 200px; /* Espaciado uniforme entre los elementos */
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    display: inline; /* Asegura que se alineen correctamente */
+}
+
+footer a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: white; /* Color del texto */
+    font-size: 16px;
+}
+
+footer a:hover{
+    color: #ccc; /* Color de los enlaces cuando se pasa el cursor */
+}
+
+
+main {
+    position: relative; /* Posiciona el main en una ubicación específica */
+    top: 0px;
+    bottom: 1000px; /* Empuja el contenido desde la parte superior */
+    right: 0; /* Lo mueve al lado derecho de la pantalla */
+    background-color: #333; /* Fondo negro */
+    color: white; /* Texto blanco */
+    padding: 20px; /* Espaciado interno */
+    width: 300px; /* Ancho del área */
+    height: 100%; /* Ocupa toda la altura de la pantalla */
+}
+
+main h4 {
+    font-size: 25px; /* Ajusta el tamaño del texto */
+    margin-bottom: 20px; /* Espacio entre el título y la lista */
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main li {
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+
+main a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: white; /* Color blanco para los enlaces */
+    font-size: 16px; /* Tamaño de la fuente */
+}
+
+main a:hover {
+    color: #ccc; /* Color de los enlaces cuando se pasa el cursor */
+}
+
+
+
